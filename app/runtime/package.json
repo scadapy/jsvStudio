@@ -1,0 +1,40 @@
+{
+  "name"            : "runtime",
+  "main"            : "index.html",
+  "version"         : "5.5",
+  "chromium-args"   : "--allow-running-insecure-content --ignore-certificate-errors",
+  "window"    : {
+    "title"         :"runtime",
+    "fullscreen"    : false,
+    "kiosk"         : false,
+    "width"         : 1400,
+    "height"        : 970,
+    "transparent"   : false
+    
+  },
+  "config":{
+    "bgcolor"       :  "dimgrey", 
+    "objmark"       :  true,
+    "disk"          :  "c:\\jsvStudio\\json\\demo.json",
+
+    "server"        :  "https://91.231.218.57:455/stations/project/scadaWebRemote.json",
+    "target"        :  "disk",
+    "login"         :  "0xA5C3812F3C54F6B9D",
+    "password"      :  "0x2A2CF", 
+    
+    "trendallow"    :  true,
+    "trendserver"   :  "https://91.231.218.57:455/stations/common/trend.php", 
+    "trendlogin"    :  "0xA5C3812F3C54F6B9D", 
+    "trendpassword" :  "0x2A2CF", 
+    "trenddtfrom"   :  3,
+    
+    "alarmTime"             :  false,
+    "alarmTimeDifference"   :  1
+    
+     
+
+
+  }
+}
+
+ 

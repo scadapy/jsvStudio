@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">	
+    
+    <link rel='stylesheet' href='./css/rtm.css' />
+    <link rel="stylesheet" href="./css/jquery.treeview.css" />
+    <link rel="stylesheet" href="./css/jquery-ui.css" />
+    <script src="./js/jquery.js" type="text/javascript"></script>
+    <script src="./js/jquery.treeview.js" type="text/javascript"></script>
+    <script src="./js/jquery.cookie.js" type="text/javascript"></script>
+    <script src="./js/jquery-ui.js"></script>    
+    <script src="./js/jquery-rtm-tree.js"></script>  
+    <script src="./js/jquery-rtm-trend.js"></script>  
+    <script src="./js/jquery-rtm-menu.js"></script> 
+    <script src="./js/jquery-rtm-button.js"></script> 
+    <script src="./js/jquery-rtm-file.js"></script> 
+    <script src="./js/jquery-rtm.js"></script> 
+
+    <script src="./js/anychat.js"></script>    
+<script>
+       window.onload = function() {
+         if(pjson.config.target === 'server'){
+           openFromServer(pjson.config.server);
+         }
+         if(pjson.config.target === 'disk'){
+             openFileLoading(pjson.config.disk);
+         }
+         $('body').css('background', pjson.config.bgcolor);
+};
+</script>
+<style>
+     
+</style>
+</head>
+
+<body>
+
+<div id="treeBlock" class="treeBlock" style="visibility: hidden;">
+</div>   
+
+
+<div class="imageFrame"   id="svg-image">
+</div>         
+
+<div class="editTree"   id="editTree">
+</div>  
+ 
+<div class="nodeTree"   id="nodeTree">
+</div>  
+ 
+<div class='svgBlock'     id="svgTableEdit">
+</div>
+
+<div class="editTree"   id="rightMenu" style="visibility: hidden;width:120px;height:120px;position:absolute; ">
+   <span class="file"  onclick="openProjectFile()" id='addNewNode' ><a class="rMenu" href="#" >Открыть проект</a></span><br>
+   <span class="file"  onclick="closeRMenu()" id='closeRMenu'><a class="rMenu"  href="#">Закрыть меню&nbsp;&nbsp;</a></span> 
+</div>
+<div id='listTrend' class='trendMenu' style="visibility: hidden;"></div>
+
+<div class="objectMark"   id="objmark" style="visibility: hidden;position:absolute; ">
+  
+</div>
+
+
+</body>
+</html>
+
