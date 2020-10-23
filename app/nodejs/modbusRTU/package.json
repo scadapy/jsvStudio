@@ -1,0 +1,36 @@
+{
+  "name": "modbus",
+  "main": "rtu.js",
+  "version": "5.5",
+  "config": {
+    "portUDP": 64000,
+    "hostUDP": "127.0.0.1",
+ 
+
+    "portHttp": 8000,
+
+    "sendUDPadr" : "127.0.0.1",
+    "sendUDPport": "64000",
+
+
+    "timeout": "1",
+    "timeoutRTU": "0.1",   
+    "debug": false,
+
+    "python":"python" ,
+    "pythonStart": true,
+
+    "archiveTime" : 5,
+    "archivePath" : "C:\\jsvStudio\\archive\\",
+    "archive" : true,
+
+    
+    
+    "configfile": ".\\demo.json",
+
+    "controlUDPport" : 64001,
+    "controlUDPserver": "127.0.0.1"
+
+  }
+ 
+}
