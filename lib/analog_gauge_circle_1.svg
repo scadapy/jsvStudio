@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="35mm"
+   height="35mm"
+   viewBox="0 0 35 35"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="analog_gauge_circle_1.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient4077"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#2a80b9;stop-opacity:1;"
+         offset="0"
+         id="stop4075" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="-16.297276"
+     inkscape:cy="142.1391"
+     inkscape:document-units="mm"
+     inkscape:current-layer="svg8"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-262)" />
+  <g
+     id="g4760">
+    <g      onclick="initsvg(this.getAttribute('id'),'analog')"
+
+       id="clgauge4706">
+      <circle
+         cx="17.182764"
+         cy="17.908691"
+         r="15.915494"
+         id="circle1496"
+         style="fill:none;stroke:#52dced;stroke-width:2;stroke-dasharray:0.5;stroke-opacity:1" />
+      <circle
+         cx="17.182764"
+         cy="17.908691"
+         r="15.915494"
+         id="circle1498"
+         style="fill:none;stroke:#2a80b9;stroke-width:2.4000001;stroke-miterlimit:4;stroke-dasharray:60, 120;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111126px;line-height:125%;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;fill:#2a80b9;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="6.6817379"
+         y="20.834715"
+         id="text2046"><tspan
+           sodipodi:role="line"
+           id="tspan2044"
+           x="6.6817379"
+           y="20.834715"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111126px;font-family:Calibri;-inkscape-font-specification:Calibri;fill:#2a80b9;fill-opacity:1;stroke-width:0.26458332px">000.00</tspan></text>
+    </g>
+  </g>
+</svg>

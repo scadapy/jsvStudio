@@ -1,0 +1,126 @@
+.svgEdit {
+	   color:white;
+  	   width:90%;	   
+	   text-decoration:none;
+	   text-align:center;
+	   margin:1px auto;
+	   display: block;
+	   left: 1px;
+	   background-color:dimgrey;
+           font: 300 14px tahoma;
+	   border: 1px solid white;
+          }
+.editTable { background-color:dimgrey ;border-collapse:collapse;color:white;font-size:12px;font-family: tahoma;width: 100%; }
+.editTable td { padding:1px;border:1px;font-size:12px;border-bottom:1px dotted white; }
+.editTable td { border-bottom:1px dotted white; }
+
+.imageFrame {
+           position: relative;
+           left: 250px; 
+           /*background-color:dimgrey;*/
+           top:10px;
+           width:800px;
+}
+
+.svgBlock {
+           position:absolute;
+           right: 10px; 
+          /* background-color:dimgrey;*/
+           top:20px;
+           visibility: hidden;
+	   border: 1px solid white; 
+	   display: block;
+	   width:300px;
+           
+}
+.videoBlock {
+           position:absolute;
+           left: 100px; 
+           top:20px;
+	   border: 2px solid white; 
+	   display: block;
+           z-index: 1000; 
+           width:645px;
+           height:400px;
+           background-color:white; 
+           text-align:right;
+}
+
+.packageJson {
+        position:absolute;
+        left: 100px; 
+        top:20px;
+        /*   border: 2px solid white;*/ 
+        display: block;
+        z-index: 1000; 
+        width:800px;
+        height:700px;
+        background-color:white; 
+       
+}
+
+
+.treeBlock {
+           position: absolute;
+           left: 5px; 
+         /*  background-color:dimgrey;*/
+           top:10px;
+           border: 1px solid white;
+           width:200px;
+           color:white;
+           height:95vh;
+           text-decoration:none;
+	   text-align:left;
+	   margin:1px auto;
+	   display: block;
+	   font: 300 12px tahoma;
+}
+.editTree {
+           position: absolute;
+           left: 255px; 
+           /*background-color:dimgrey;*/
+           top:10px;
+           border: 1px solid white;
+           width:400px;
+           color:white;
+           text-decoration:none;
+           text-align:left;
+	   margin:1px auto;
+	   display: block;
+	   font: 300 12px tahoma;
+	   visibility: hidden;
+}
+
+.nodeTree {
+           position: absolute;
+           left: 255px; 
+          /* background-color:dimgrey;*/
+           top:210px;
+           border: 1px solid white;
+           width:400px;
+           color:white;
+           text-decoration:none;
+	   text-align:left;
+	   margin:1px auto;
+	   display: block;
+	   font: 300 12px tahoma;
+	   visibility: hidden;
+}
+ a  {
+         text-decoration: none;
+         color: white;
+        }
+        
+        
+.rMenu {
+          color:white;
+	  margin-left: 12px;	         
+	  line-height: 20px;
+	  padding:2px;
+}
+.rMenu:hover {
+
+    background-color: white; 
+    color: black;     
+   }
+        
