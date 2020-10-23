@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script src="./js/go.js"></script>
+  <script src="./js/go-edit.js"></script>
+  <script src="./js/jquery.js" type="text/javascript"></script>
+  <script id="code">
+  </script>
+</head>
+<body onload="loadPallet()" style ='background-color: dimgrey;'>
+  <button onclick="openModbusFile()"    style ='width:100px;'> Открыть</button>
+  <button id="SaveButton" onclick="saveProjectFile()"  style ='width:100px;'>Сохранить</button>
+  <button onclick="layout()"  style ='width:100px;'>Группировка</button>
+  <button onclick="runnode()"  style ='width:100px;'>Запустить</button>
+  
+  <div id="sample"  style="top:40px;position:absolute;width: 99%;">
+    <div style="width: 100%; display: flex; justify-content: space-between">
+      <div id="myPaletteDiv" style="width: 150px; margin-right: 2px; background-color: dimgrey; border: solid 1px white"></div>
+      <div id="myDiagramDiv" style="width: 95%;flex-grow: 1; height: 95vh; border: solid 1px white;background-color: dimgrey;"></div>
+    </div>
+  </div>
+</body>
+</html>

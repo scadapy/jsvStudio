@@ -1,0 +1,21 @@
+{
+  "name"            : "gojseditor",
+  "main"            : "index.html",
+  "version"         : "5.5",
+  "chromium-args"   : "--allow-running-insecure-content --ignore-certificate-errors",
+  "window"    : {
+    "title"         :"Modbus editor GO.js",
+    "fullscreen"    : false,
+    "kiosk"         : false,
+    "width"         : 1400,
+    "height"        : 970,
+    "transparent"   : false
+    
+  },
+  "config": {
+    "nodejs":"node" ,
+    "python":"python" ,
+    "rtucmd":"..\\nodejs\\modbusRTU\\rtu.js"
+  }
+
+}
